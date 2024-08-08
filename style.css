@@ -1,0 +1,197 @@
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dae0e5;
+}
+.container.bg-info {
+  background-color: #0dcaf0 !important;
+}
+
+.sec-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.team-card {
+  border: 1px solid #dae0e5;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.team-card_img img {
+  width: 100%;
+  height: auto;
+}
+.team-card_content {
+  padding: 1rem;
+}
+.team-card_content_title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.team-card_content_title a {
+  color: #212529;
+  text-decoration: none;
+}
+.team-card_content_title a:hover {
+  color: #0d6efd;
+}
+.team-card_content_desig {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.btn-outline {
+  border: 1px solid #212529;
+  color: #212529;
+}
+.btn-outline-primary {
+  border-color: #0d6efd;
+  color: #0d6efd;
+}
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #f8f9fa;
+}
+.btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #f8f9fa;
+}
+.btn-outline-success {
+  border-color: #198754;
+  color: #198754;
+}
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: #f8f9fa;
+}
+.btn-outline-info {
+  border-color: #0dcaf0;
+  color: #0dcaf0;
+}
+.btn-outline-info:hover {
+  background-color: #0dcaf0;
+  color: #f8f9fa;
+}
+.btn-outline-warning {
+  border-color: #ffc107;
+  color: #ffc107;
+}
+.btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: #212529;
+}
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #f8f9fa;
+}
+.btn-outline-dark {
+  border-color: #212529;
+  color: #212529;
+}
+.btn-outline-dark:hover {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+.btn-outline-light {
+  border-color: #f8f9fa;
+  color: #f8f9fa;
+}
+.btn-outline-light:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #0d6efd;
+  color: #f8f9fa;
+  border-radius: 0.3rem;
+}
+
+.alert {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+}
+.alert-link {
+  font-weight: bold;
+}
+.alert-success {
+  background-color: #84e8ba;
+  border-color: #198754;
+}
+.alert-danger {
+  background-color: #fae3e5;
+  border-color: #dc3545;
+}
+
+.progress {
+  height: 1.5rem;
+}
+.progress .progress-bar {
+  background-color: #0d6efd;
+}
+
+.spinner-border, .spinner-grow {
+  margin: 0.5rem;
+}
+
+.pagination {
+  margin-top: 1rem;
+  justify-content: center;
+}
+.pagination .page-item.active .page-link {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-check {
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.form-control-color {
+  max-width: 3rem;
+  height: 3rem;
+  padding: 0;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption {
+  background-color: rgba(33, 37, 41, 0.6);
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  background-color: #212529;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
